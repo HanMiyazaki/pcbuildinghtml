@@ -1,0 +1,217 @@
+<html>
+
+
+
+<head>
+<title> İşlemciler </title>
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<style>
+
+
+
+ body {
+ color:black;
+ font-family:Century Gothic;
+ background-color:;
+ }
+
+h1 {
+color:black;
+font-size:30pt;
+}
+
+
+.dropbtn{
+  background-color: #ffffff;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 170px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #2980B9;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<div id="YanMenu" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+
+  &times;</a>
+
+  <a href="Bilgisayar Toplama .html">Anasayfa</a>
+  <a href="İşlemciler.html">İşlemciler</a>
+  <a href="Anakart.html">Anakartlar</a>
+ <a href="Ekran Kartları.html">Ekran Kartları </a>
+     <a href="Ram.html">RAM </a>
+	 <a href="SSD.html">SSD </a>
+	 <a href="Tavsiye sistemler.html">Tavsiye Sistemler </a>
+	  
+</div>
+
+<div id="main">
+
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+
+  &#9776; </span>
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("YanMenu").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("YanMenu").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+  <h1 align = "center" >
+İşlemciler
+</h1> 
+
+<h2> AMD İşlemciler. </h2>
+
+<ol>
+<li>
+
+<div class="dropup">
+  <button class="dropbtn">RYZEN 5 2600</button>
+  <div class="dropup-content">
+    <a href="https://www.sahibinden.com/ilan/ikinci-el-ve-sifir-alisveris-bilgisayar-masaustu-2600-ryzen-881145194/detay"">Sahibinden</a>
+    <a href="https://www.itopya.com/amd-ryzen-5-2600-soket-am4-34ghz-19mb-onbellek-6-cekirdek-islemci/">İtopya</a>
+    <a href="https://www.vatanbilgisayar.com/amd-ryzen-5-2600-socket-am4-3-9ghz-19mb-onbellek-65w-islemci.html">Vatan</a>
+  </div>
+</div>
+
+
+</li>
+
+<li>
+<div class="dropup">
+  <button class="dropbtn">RYZEN 5 1600</button>
+  <div class="dropup-content">
+    <a href="https://www.sahibinden.com/ilan/ikinci-el-ve-sifir-alisveris-bilgisayar-masaustu-vatandan-alinma-ryzen-5-1600-882469741/detay"">Sahibinden</a>
+    <a href="https://www.itopya.com/amd-ryzen-5-1600-soket-am4-3-2ghz-19mb-onbellek-65w-6-cekirdek-islemci//">İtopya</a>
+    <a href="https://www.vatanbilgisayar.com/amd-ryzen-5-1600-soket-am4-3-4ghz-3-6ghz-16-mb-65w-14nm-islemci.html">Vatan</a>
+  </div>
+</div>
+</li>
+</ol>
+
+
+<hr>
+
+<h2> İntel İşlemciler. </h2>
+
+<ol>
+<li>
+<div class="dropup">
+  <button class="dropbtn">İntel Pentium G4560</button>
+  <div class="dropup-content">
+    <a href="https://www.sahibinden.com/ilan/ikinci-el-ve-sifir-alisveris-bilgisayar-masaustu-intel-pentium-g4560-882745379/detay">Sahibinden</a>
+  </div>
+</div>
+</li>
+</ol>
+</li>
+
+
+
+
+
+
+</body>
+</html> 
